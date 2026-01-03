@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker-bot",
+  "version": "1.0.0",
+  "description": "Telegram Expense Tracker Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "mongoose": "^8.2.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
